@@ -1,0 +1,226 @@
+/* 768px 切換 */
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  font-family: 'Noto Sans TC', sans-serif;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container img {
+  width: 300px;
+  
+  /* max-width: 100%;
+  vertical-align: middle; */
+}
+
+hr {
+  margin: 30px 0px 30px 0px;
+}
+
+
+/* --------------------------------- */
+
+.box1 {
+  text-align: center;
+}
+
+.box1 p {
+  font-size: 1rem;
+}
+
+/* --------------------------------- */
+
+.box2 {
+  text-align: center;
+}
+
+.box2 h2 {
+  text-align: left;
+}
+
+.box2 p {
+  text-align: left;
+}
+
+/* ------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    position: absolute;
+
+    /* background-color: beige; */
+  }
+
+  .box1 {
+    width: 30%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .box1 img {
+    width: 50%;
+  }
+
+  .box2 {
+    width: 20%;
+  }
+
+  .box2 p {
+    display: none;
+  }
+
+  .box2 h2 {
+    text-align: center;
+  }
+
+  .box2 img {
+    width: 50%;
+  }
+
+  /* ------------- */
+
+  .html {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+  }
+
+  .css3 {
+    position: absolute;
+    top: 0%;
+    left: 22%;
+  }
+
+  .js {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
+
+  .jq {
+    position: absolute;
+    top: 66%;
+    left: 18%;
+  }
+
+  .bs {
+    position: absolute;
+    top: 0%;
+    left: 65%;
+  }
+
+  .sass {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+  }
+
+  .vue {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+  }
+
+  /* ------------------------------------- */
+
+  .hr0 {
+  display: none;    
+  }
+
+  /* html */
+  .hr1 {
+    width: 27%;
+    border: 1px solid #000;
+
+    position: absolute;
+    top: 32%;
+    left: 28%;
+
+    transform: translate(-50%, -50%) rotate(14deg);
+  }
+
+  /* css3 */
+  .hr2 {
+    width: 7%;
+    border: 1px solid #000;
+
+    position: absolute;
+    top: 25%;
+    left: 39%;
+
+    transform: translate(-50%, -50%) rotate(34deg);
+  }
+
+  /* js */
+  .hr3 {
+    width: 22%;
+    border: 1px solid #000;
+
+    position: absolute;
+    top: 50%;
+    left: 30.5%;
+
+    transform: translate(-50%, -50%) rotate(-12deg);
+  }
+
+  /* jq */
+  .hr4 {
+    width: 13%;
+    border: 1px solid #000;
+
+    position: absolute;
+    top: 60%;
+    left: 37%;
+
+    transform: translate(-50%, -50%) rotate(-32deg);
+  }
+
+  /* bs */
+  .hr5 {
+    width: 12%;
+    border: 1px solid #000;
+
+    position: absolute;
+    top: 27%;
+    left: 64%;
+    transform: translate(-50%, -50%) rotate(-28deg);
+
+  }
+
+  /* sass */
+  .hr6 {
+    width: 23%;
+    border: 1px solid #000;
+
+    position: absolute;
+    top: 37%;
+    left: 71%;
+
+    transform: translate(-50%, -50%) rotate(-6deg);
+  }
+
+  /* vue */
+  .hr7 {
+    width: 16%;
+    border: 1px solid #000;
+
+    position: absolute;
+    top: 55%;
+    left: 66%;
+
+    transform: translate(-50%, -50%) rotate(22deg);
+  }
+
+}
